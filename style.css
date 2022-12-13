@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+h1{
+    font-size: 30px;
+    padding: 3px;
+}
+p{
+    padding: 3px;
+}
+/*----------------Perfil Style-------------*/
+.perfil, .works{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.perfil-photo{
+    border-radius: 7px;
+}
+.social-midia{
+    display: flex;
+    justify-content: center;
+}
+.midia{
+    width: 100px;
+    padding: 7px;
+    border-radius: 7px;    
+    margin: 4px;
+    background-color: rgba(192, 192, 192, 0.493);
+}
+.works{
+    width: 90%;
+    display: grid;
+    border: solid red 1px;
+    justify-content: center;
+}
+.works img{
+    border-radius: 11px;
+    height: 350px;
+    margin: 2%;
+}
