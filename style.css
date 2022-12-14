@@ -11,8 +11,13 @@ body{
     margin-top: 50px;
 }
 h1{
-    font-size: 30px;
+    font-size: 28px;
+    font-weight: 400;
     padding: 3px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 400;
 }
 p{
     padding: 3px;
@@ -68,23 +73,34 @@ p{
     grid-row: 2 / 4;
 }
 footer p{
+    text-align: center;
     color: rgb(144, 142, 142);
-    font-size: 18px;
+    font-size: 16px;
 }
 footer a{
     color: rgb(103, 102, 102);
 }
 @media only screen and (max-width: 1500px) {
     .works{
-        border: solid 1px rgb(0, 0, 0);
-        width: 80%;
         grid-template-rows: 250px 250px 250px;
     }
 }
 @media only screen and (max-width: 800px) {
-    .works{
-        border: solid 1px red;
+    .works{ 
         width: 95%;
         grid-template-rows: 200px 200px 200px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .midia{
+        width: 80px;
+        padding: 4px;
+        border-radius: 7px;    
+        margin: 2px;
+        background-color: rgba(192, 192, 192, 0.493);
+    }
+    .works{ 
+        width: 95%;
+        grid-template-rows: 150px 150px 150px;
     }
 }
